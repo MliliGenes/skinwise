@@ -437,7 +437,7 @@ section {
   gap: 2em;
 }
 #contact .form form {
-  flex-basis: 40%;
+  width: 350px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -451,17 +451,17 @@ section {
   margin-bottom: 1em;
 }
 #contact .form form label {
-  align-self: start;
   color: #ffffff;
   font-family: var(--font1);
   font-size: 1.2em;
   margin-bottom: 0.5em;
+  width: 300px;
 }
 #contact .form form input {
   background-color: transparent;
   border: 1px solid #cbe4de;
   outline: 0;
-  min-width: 400px;
+  min-width: 300px;
   height: 45px;
   border-bottom: 5px solid #cbe4de;
   color: #cbe4de;
@@ -484,7 +484,7 @@ section {
   border-color: rgb(121, 255, 91);
 }
 #contact .form form textarea {
-  width: 400px;
+  width: 300px;
   max-width: 400px;
   min-height: 150px;
   background-color: transparent;
